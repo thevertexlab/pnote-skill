@@ -9,11 +9,25 @@ Claude Code skill for [PromptNote](https://promptnoteapp.com/) CLI.
 
 ### Option A: Via skills.sh (Recommended)
 
+**Interactive** (choose agents and confirm):
 ```bash
 npx skills add thevertexlab/pnote-skill
 ```
 
-This automatically installs the skill for Claude Code.
+**Non-interactive** (install to all agents, skip prompts):
+```bash
+npx skills add thevertexlab/pnote-skill --all
+```
+
+**Global install** (user-level, available across all projects):
+```bash
+npx skills add thevertexlab/pnote-skill -g -y
+```
+
+**Project-level** (current project only):
+```bash
+npx skills add thevertexlab/pnote-skill -y
+```
 
 ### Option B: Manual Installation
 
