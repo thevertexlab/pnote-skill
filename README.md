@@ -1,16 +1,29 @@
 # pnote-skill
 
+[![npm](https://img.shields.io/npm/v/pnote)](https://www.npmjs.com/package/pnote)
+[![skills.sh](https://img.shields.io/badge/skills.sh-pnote-blue)](https://skills.sh/)
+
 Claude Code skill for [PromptNote](https://promptnoteapp.com/) CLI.
 
 ## Installation
 
-### 1. Install the CLI
+### Option A: Via skills.sh (Recommended)
+
+```bash
+npx skills add thevertexlab/pnote-skill
+```
+
+This automatically installs the skill for Claude Code.
+
+### Option B: Manual Installation
+
+#### 1. Install the CLI
 
 ```bash
 npm install -g pnote
 ```
 
-### 2. Authenticate
+#### 2. Authenticate
 
 Get your Personal Access Token from [PromptNote Settings](https://promptnoteapp.com/settings), then:
 
@@ -18,7 +31,7 @@ Get your Personal Access Token from [PromptNote Settings](https://promptnoteapp.
 pnote auth token pn_your_token_here
 ```
 
-### 3. Use the Skill
+#### 3. Use the Skill
 
 In Claude Code, use `/pnote` to invoke:
 
